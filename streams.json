@@ -24,11 +24,14 @@
       "mosque": "Masjid al-Haram",
       "broadcaster": "KSA Qur’an TV",
       "active": true,
-      "tabIds": [
-        "makkah"
-      ],
+      "tabIds": ["makkah"],
       "thumbnailUrl": null,
       "sources": [
+        {
+          "label": "YouTube Live",
+          "type": "youtube_embed",
+          "url": "https://www.youtube.com/watch?v=IsJTAdC3-Jw"
+        },
         {
           "label": "Aloula",
           "type": "external",
@@ -47,9 +50,7 @@
       "mosque": "Masjid an-Nabawi",
       "broadcaster": "Saudi Sunnah TV",
       "active": true,
-      "tabIds": [
-        "madina"
-      ],
+      "tabIds": ["madina"],
       "thumbnailUrl": null,
       "sources": [
         {
