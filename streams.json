@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "tabs": [
+    {
+      "id": "makkah",
+      "label": "MAKKAH",
+      "active": true
+    },
+    {
+      "id": "madina",
+      "label": "MADINA",
+      "active": true
+    },
+    {
+      "id": "other",
+      "label": "OTHER",
+      "active": false
+    }
+  ],
+  "channels": [
+    {
+      "id": "makkah-live",
+      "name": "Makkah Live",
+      "mosque": "Masjid al-Haram",
+      "broadcaster": "KSA Qur’an TV",
+      "active": true,
+      "tabIds": [
+        "makkah"
+      ],
+      "thumbnailUrl": null,
+      "sources": [
+        {
+          "label": "Aloula",
+          "type": "external",
+          "url": "https://aloula.sba.sa/live/quran"
+        },
+        {
+          "label": "YouTube",
+          "type": "external",
+          "url": "https://www.youtube.com/@SaudiQuranTv/live"
+        }
+      ]
+    },
+    {
+      "id": "madina-live",
+      "name": "Madina Live",
+      "mosque": "Masjid an-Nabawi",
+      "broadcaster": "Saudi Sunnah TV",
+      "active": true,
+      "tabIds": [
+        "madina"
+      ],
+      "thumbnailUrl": null,
+      "sources": [
+        {
+          "label": "Aloula",
+          "type": "external",
+          "url": "https://aloula.sba.sa/live/sunna"
+        },
+        {
+          "label": "YouTube",
+          "type": "external",
+          "url": "https://www.youtube.com/@SaudiSunnahTv/live"
+        }
+      ]
+    }
+  ]
+}
